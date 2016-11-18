@@ -39,10 +39,8 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
 
-#### Ubuntu 16.04 LTS (Xenial Xerus)
+#### Ubuntu 16.04 LTS
 ```
-sudo add-apt-repository ppa:fkrull/deadsnakes -y
-sudo add-apt-repository ppa:mc3man/xerus-media -y
 sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
