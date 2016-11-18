@@ -13,6 +13,24 @@ This guide will explain on how to install Red onto Ubuntu/Debian. Keep in mind t
 
 ### Repositories
 
+#### Debian Jessie and Later
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:fkrull/deadsnakes -y
+sudo add-apt-repository ppa:mc3man/trusty-media -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
+```
+
+#### Debian Wheezy and Earlier
+```
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:fkrull/deadsnakes -y
+sudo add-apt-repository ppa:mc3man/trusty-media -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
+```
+
 #### Ubuntu 14.04 LTS (Trusty Tahr)
 ```
 sudo add-apt-repository ppa:fkrull/deadsnakes -y
